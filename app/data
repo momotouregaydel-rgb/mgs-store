@@ -1,0 +1,14 @@
+export const products = [
+  {
+    id: 1,
+    name: "Chaussures Sport",
+    price: "25 000 FCFA",
+    description: "Modèle confortable pour la marche et le sport."
+  },
+  {
+    id: 2,
+    name: "Chemise en coton",
+    price: "12 000 FCFA",
+    description: "Qualité supérieure, disponible en plusieurs tailles."
+  }
+];
