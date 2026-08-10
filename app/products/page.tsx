@@ -6,7 +6,7 @@ export default function Home() {
   const [showContent, setShowContent] = useState(true);
   const whatsappNumber = "221774868415"; // Numéro principal MGS
 
-  const handleOrder = (category, name, price) => {
+  const handleOrder = (category: string, name: string, price: string) => {
     const message = encodeURIComponent(`Bonjour MGS, je souhaite commander dans la section *${category}* : *${name}* au prix de *${price}*. Je suis à Grand Mbour.`);
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
   };
